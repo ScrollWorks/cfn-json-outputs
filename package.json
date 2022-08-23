@@ -1,0 +1,29 @@
+{
+	"name": "@scrollworks/cfn-json-outputs",
+	"version": "1.0.0",
+	"description": "Simple cli node application that creates a JSON file with the outputs of an AWS cloudformation stack",
+	"bin": {
+		"cloudformationoutputstojson": "index.js"
+	},
+	"dependencies": {
+		"@aws-sdk/client-cloudformation": "^3.154.0",
+		"command-line-args": "^5.2.1"
+	},
+	"devDependencies": {},
+	"keywords": [
+		"aws",
+		"cloudformation",
+		"cfn",
+		"export",
+		"json"
+	],
+	"homepage": "https://github.com/ScrollWorks/cfn-json-outputs#readme",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ScrollWorks/cfn-json-outputs"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "ScrollWorks <ruben@scroll.works> (https://scroll.works)"
+}
